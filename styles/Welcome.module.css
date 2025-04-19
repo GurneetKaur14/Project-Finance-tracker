@@ -1,0 +1,60 @@
+.container {
+    max-width: 450px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(235, 195, 235);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-family: 'Papyrus';
+    font-size: 2em;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin-bottom: 1.2rem;
+  }
+  
+  .inputGroup label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.3rem;
+  }
+  
+  .button {
+    background-color: #dc75ac;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
